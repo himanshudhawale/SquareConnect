@@ -1,4 +1,4 @@
 'use strict';
 
-module.exports.apiLoginKey = 'REMOVED';
-module.exports.transactionKey = 'REMOVED';
+module.exports.apiLoginKey = process.env.AUTHNET_API_LOGIN_KEY;
+module.exports.transactionKey = process.env.AUTHNET_TRANSACTION_KEY;
